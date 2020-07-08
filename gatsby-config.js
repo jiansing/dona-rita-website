@@ -1,11 +1,17 @@
 module.exports = {
 	siteMetadata: {
-		title: 'Dona Rita'
+		title: '网站任意门'
 	},
 	plugins: [
 		'gatsby-plugin-layout',
 		'gatsby-plugin-react-helmet',
 		'gatsby-plugin-sass',
+		{
+			resolve: 'gatsby-plugin-load-script',
+			options: {
+			  src: '/web.js', // Change to the script filename
+			},
+		  },
 		{
 			resolve: 'gatsby-plugin-nprogress',
 			options: {
