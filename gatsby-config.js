@@ -7,6 +7,13 @@ module.exports = {
 		'gatsby-plugin-react-helmet',
 		'gatsby-plugin-sass',
 		{
+			resolve: `gatsby-plugin-canonical-urls`,
+			options: {
+			  siteUrl: `https://gate.ofo.moe`,
+			  stripQueryString: true,
+			},
+		  },
+		{
 			resolve: 'gatsby-plugin-nprogress',
 			options: {
 				color: '#f09a7a',
