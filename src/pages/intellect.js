@@ -42,7 +42,7 @@ function StoryPage({ location }) {
 							试试看能学到什么新东西吧！希望你能有所收获。
 						</p>
 						<p>
-						<a href="https://gate.ofo.moe" className="button" target="_blank">
+						<a href="https://link.ofo.moe/intellect" className="button" target="_blank">
 							Let's Go
 						</a>
 						</p>

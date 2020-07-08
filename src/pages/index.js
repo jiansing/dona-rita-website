@@ -50,7 +50,7 @@ function IndexPage({ data, location }) {
 {/* 							<Link to="https://gate.ofo.moe" className="button">
 							    Let's Go
 							</Link> */}
-							<a href="https://gate.ofo.moe" className="button" target="_blank">
+							<a href="https://link.ofo.moe" className="button" target="_blank">
 							Let's Go
 							</a>
 						</p>
@@ -72,7 +72,7 @@ function IndexPage({ data, location }) {
 						</div>
 
 						<div className="col fluid md-3 fake-img-wrapper">
-							<FakeImg className="-two-x-three" img={ritaImg} />
+							<FakeImg className="-two-x-three" img={colorImg} />
 						</div>
 					</div>
 				</div>

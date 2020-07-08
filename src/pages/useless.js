@@ -33,6 +33,9 @@ function PressPage() {
 						<p className="measure">
 						  Tan90° 传送门：你将被传送到一个超奇怪的网站，传送到其中任一网站的概率都是相等的。
 						</p>
+						<a href="https://link.ofo.moe/useless" className="button" target="_blank">
+							Let's Go
+						</a>
 					</div>
 				</div>
 
