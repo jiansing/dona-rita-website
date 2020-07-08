@@ -47,9 +47,10 @@ function IndexPage({ data, location }) {
 						</p>
 
 						<p>
-							<Link to="https://gate.ofo.moe" className="button">
+{/* 							<Link to="https://gate.ofo.moe" className="button">
 							    Let's Go
-							</Link>
+							</Link> */}
+							<a href="https://gate.ofo.moe" className="button">Let's Go</a>
 						</p>
 					</div>
 
