@@ -72,7 +72,7 @@ function IndexPage({ data, location }) {
 						</div>
 
 						<div className="col fluid md-3 fake-img-wrapper">
-							<FakeImg className="-two-x-three" img={colorImg} />
+							<FakeImg className="-two-x-three" img={ritaImg} />
 						</div>
 					</div>
 				</div>
