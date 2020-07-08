@@ -45,7 +45,7 @@ function IndexPage({ data, location }) {
 						网站
 						<br />
 						任意门
-						<span className="title-desc">开启一次未知之旅，发现你最爱的网站！<br />
+						<span className="title-desc">
 						你可能会遇到：
                         </span>
 						<Typewriter
@@ -65,7 +65,6 @@ function IndexPage({ data, location }) {
 							<Link to="/story" className="button" id="button">
 							    Let's Go
 							</Link>
-							<script type="text/javascript" src="/static/js/web.js"></script>
 							<script>
                              var uselessWebButton = new uselessWebButton(
                              document.getElementById("button")

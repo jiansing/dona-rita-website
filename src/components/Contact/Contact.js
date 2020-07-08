@@ -9,7 +9,7 @@ export function Contact() {
 
 			<div className="grid">
 				<p className="col sm-12 md-5 lg-3 md-push-1 lg-push-3 contact">
-					Call Clara at
+					反馈：
 					<a href="https://community.ofo.moe/c/feedback/2" className="contact-link">
 						宝站社区
 					</a>
