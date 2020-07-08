@@ -4,32 +4,34 @@ export function Contact() {
 	return (
 		<div>
 			<div className="grid">
-				<h1 className="col md-push-1 lg-push-2">Contact us</h1>
+				<h1 className="col md-push-1 lg-push-2">社区反馈</h1>
 			</div>
 
 			<div className="grid">
 				<p className="col sm-12 md-5 lg-3 md-push-1 lg-push-3 contact">
 					Call Clara at
-					<span className="contact-phone">+44 (0) 79522 16979</span>
+					<a href="https://community.ofo.moe/c/feedback/2" className="contact-link">
+						宝站社区
+					</a>
 					<span className="contact-or">
-						<span>or</span>
+						<span>或</span>
 					</span>
-					drop us a line at
-					<a href="mailto:oi@donarita.co.uk" className="contact-link">
-						oi@donarita.co.uk
+					联系
+					<a href="mailto:i@ofo.moe" className="contact-link">
+					   i@ofo.moe
 					</a>
 				</p>
 
 				<div className="col fluid md-3 lg-2 md-push-1 lg-push-2 button-group">
-					<a href="https://instagram.com/OiDonaRita" className="button -block">
-						Instagram
+					<a href="https://community.ofo.moe/" className="button -block">
+						宝站社区
 					</a>
-					<a href="https://twitter.com/OiDonaRita" className="button -block">
+{/* 					<a href="https://twitter.com/OiDonaRita" className="button -block">
 						Twitter
 					</a>
 					<a href="https://facebook.com/OiDonaRita" className="button -block">
 						Facebook
-					</a>
+					</a> */}
 				</div>
 			</div>
 		</div>

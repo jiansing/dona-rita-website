@@ -20,16 +20,16 @@ export function TitleAndMetaTags({ url, pathname, title, description }) {
 			<meta name="twitter:image" content={`${url}/social/hero-1.jpg`} />
 			<meta name="twitter:title" content={title} />
 			<meta name="twitter:description" content={description} />
-			<meta name="twitter:site" content="@oidonarita" />
+			<meta name="twitter:site" content="@iwyifan" />
 			<meta name="twitter:card" content="summary_large_image" />
-			<meta name="twitter:creator" content="@oidonarita" />
+			<meta name="twitter:creator" content="@iwyifan" />
 		</Helmet>
 	);
 }
 
 TitleAndMetaTags.defaultProps = {
-	url: 'https://donarita.co.uk',
+	url: 'https://gate.ofo.moe',
 	pathname: '',
-	title: 'Dona Rita',
-	description: 'Brazilian cheese bread. Pão de Queijo.'
+	title: '网站任意门 - 发现你最爱的网站',
+	description: '开启一次未知之旅，这里总有一个属于你的宝站！'
 };

@@ -13,7 +13,7 @@ import bannerImg from '../images/banner.jpg';
 function BuyPage({ data, location }) {
 	return (
 		<div className="main">
-			<TitleAndMetaTags title="Buy online" pathname="buy" />
+			<TitleAndMetaTags title="宝站社区" pathname="buy" />
 
 			<Product
 				postcodes={data.allPostcodesJson.edges[0].node.allowed}

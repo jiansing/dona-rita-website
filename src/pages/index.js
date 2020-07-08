@@ -42,13 +42,15 @@ function IndexPage({ data, location }) {
 			<Section>
 				<div className="grid">
 					<h1 className="col -block md-push-1 lg-push-2 title">
-						Dona Rita
+						网站
 						<br />
-						Pão de Queijo.
-						<span className="title-desc">Brazilian cheese</span>
+						任意门
+						<span className="title-desc">开启一次未知之旅，发现你最爱的网站！<br />
+						你可能会遇到：
+                        </span>
 						<Typewriter
 							className="title-desc"
-							texts={['bread.', 'buns.', 'balls.', 'rolls.', 'puffs.', 'goodness.']}
+							texts={['热狗雨', '线上公开课', '初音未来', '星际移民中心', '妖怪百科', '大自然的雨声']}
 						/>
 					</h1>
 				</div>
@@ -56,29 +58,27 @@ function IndexPage({ data, location }) {
 				<div className="grid">
 					<div className="col md-7 lg-5 md-push-1 lg-push-2 lg-push-3">
 						<p className="measure">
-							A proper Pão de Queijo is a two-bite business: crunchy on the outside and
-							fluffy on the inside. Made with cassava flour and fresh cheese, it’s a
-							farmer’s take on traditional European bread - without the wheat. Pão de
-							Queijo is a staple snack at most cafes, restaurants and dinner parties
-							across Brazil. It’s cheesily addictive and naturally gluten free.
-						</p>
-						<p className="measure">
-							Try pairing it with a short black coffee São Paulo style, or spread thickly
-							with guava<sup className="-yellow">&#9679;</sup> jam for a sweet contrast.
+							二十面骰<sup className="-yellow">&#9679;</sup>传送门：你将被传送到完全随机的一个网站，传送到任何一个网站的概率都是相等的。
 						</p>
 
 						<p>
-							<Link to="/story" className="button">
-								Read our story
+							<Link to="/story" className="button" id="button">
+							    Let's Go
 							</Link>
+							<script type="text/javascript" src="https://gate.ofo.moe/static/js/web.js"></script>
+							<script>
+                            var uselessWebButton = new uselessWebButton(
+                            document.getElementById("button")
+                              );
+                            </script>
 						</p>
 					</div>
 
 					<div className="col md-3 lg-2">
 						<p className="small faded footnote -yellow" data-id="&#9679;">
-							Guava jam is made with guava, a tropical fruit that’s sweet and aromatic.
-							It’s the most popular dip for Pão de Queijo. You can use your favourite
-							english jam as a substitute.
+						 传送所需时间主要取决于目的地网站，如果无法传送成功请多开启几次传送门哦
+						 也可以在右下角给我们反馈！
+
 						</p>
 					</div>
 				</div>
@@ -98,18 +98,18 @@ function IndexPage({ data, location }) {
 
 			<Section className="-blue">
 				<div className="grid">
-					<h1 className="col md-push-1 lg-push-2">Eat it</h1>
+					<h1 className="col md-push-1 lg-push-2">宝站社区</h1>
 				</div>
 
 				<div className="grid">
 					<div className="col md-7 lg-5 md-push-1 lg-push-3">
-						<h3 className="measure-wider">Find a shop</h3>
+						<h3 className="measure-wider">它的使命</h3>
 						<p className="measure-wider">
-							Buy our frozen bake-at-home packs from a few shops around London.
+						   挖掘躺在互联网角落里，被我们所忽视的宝藏网站。
 						</p>
 						<p className="measure-wider">
 							<Link to="/stockists" className="button">
-								See stockists
+								来逛逛！
 							</Link>
 						</p>
 					</div>
@@ -126,31 +126,30 @@ function IndexPage({ data, location }) {
 						<FakeImg className="-three-x-two" img={img1} />
 					</div>
 				</div>
-
+{/* 
 				<div className="grid">
 					<div className="col md-7 lg-5 md-push-1 lg-push-2">
 						<h2 className="h1">It’s pronounced pown-deh-kay-zho.</h2>
 					</div>
-				</div>
+				</div> */}
 			</Section>
 
-			<Product
+{/* 			<Product
 				postcodes={data.allPostcodesJson.edges[0].node.allowed}
 				stockists={data.allMarkdownRemark.edges}
 				location={location}
 				soldout
 			/>
 
-			<Banner img={bannerImg} mobileImg={bannerMobileImg} />
+			<Banner img={bannerImg} mobileImg={bannerMobileImg} /> */}
 
 			<Section className="-salmon testimonial">
 				<div className="grid">
 					<blockquote className="col md-9 md-push-1 lg-push-2">
 						<h3 className="h1">
-							A crunchy outside giving way to a cloud-like interior. Sounds ace, right?
-							Right.
+						“就像开盲盒一样，有挺多实用的网站，超级有趣摸鱼也很快乐”
 						</h3>
-						<p>Tom Howells – TimeOut London</p>
+						<p>The User</p>
 					</blockquote>
 				</div>
 			</Section>
