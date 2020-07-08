@@ -16,13 +16,13 @@ function StoryPage({ location }) {
 	return (
 		// <Layout location={location}>
 		<div className="main">
-			<TitleAndMetaTags title="Story" pathname="story" />
+			<TitleAndMetaTags title="来充电" pathname="story" />
 			<Section>
 				<div className="grid">
 					<h1 className="col -block md-push-1 lg-push-2 title">
-						This is our story.
+					    量变引起质变
 						<br />
-						<span className="salmon">A family adventure.</span>
+						<span className="salmon">知识重在积累</span>
 					</h1>
 				</div>
 				<div className="grid">
@@ -33,35 +33,32 @@ function StoryPage({ location }) {
 				<div className="grid">
 					<div className="col md-7 lg-5 md-push-1 lg-push-3">
 						<h2>
-							Rita’s saudade<sup className="-yellow">&#9679;</sup>
+							智慧果<sup className="-yellow">&#9679;</sup>传送门：
 						</h2>
 					</div>
 
 					<div className="col md-7 lg-5 md-push-1 lg-push-3">
 						<p className="measure">
-							When Rita left the tropics for Norwich she missed Pão de Queijo so much she
-							started baking it from scratch. For the last 15 years she’s been perfecting
-							her secret family recipe. Now her little cheese bread is so delicious, some
-							people think it’s better than the original. We can’t wait for you to try it.
+							试试看能学到什么新东西吧！希望你能有所收获。
 						</p>
 						<p>
-							<Link to="/ingredients" className="button">
-								Our ingredients
-							</Link>
+						<a href="https://gate.ofo.moe" className="button" target="_blank">
+							Let's Go
+						</a>
 						</p>
 					</div>
 
 					<div className="col md-3 lg-2">
 						<p className="small faded footnote -yellow" data-id="&#9679;">
-							Saudade is a feeling of nostalgia and homesickness characteristic of
-							Brazilian temperament. This portuguese word has no translation.
+						 传送所需时间主要取决于目的地网站，如果无法传送成功请多开启几次传送门哦
+						 也可以在右下角给我们反馈！
 						</p>
 					</div>
 				</div>
 			</Section>
 
 			<Banner img={fullWidthImageRollingImg} mobileImg={fullWidthImageRollingImg} />
-
+{/* 
 			<Section className="-white">
 				<div className="grid">
 					<div className="col md-push-1 lg-push-3">
@@ -95,7 +92,7 @@ function StoryPage({ location }) {
 						Family photo by <a href="https://munchies.com">Munchies</a>.
 					</div>
 				</div>
-			</Section>
+			</Section> */}
 
 			<Contact />
 		</div>

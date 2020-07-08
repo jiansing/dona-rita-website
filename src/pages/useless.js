@@ -18,27 +18,25 @@ import metroImg from '../images/press-logos/metro.png';
 function PressPage() {
 	return (
 		<div className="main">
-			<TitleAndMetaTags title="Press" pathname="press" />
+			<TitleAndMetaTags title="好奇怪" pathname="press" />
 			<Section>
 				<div className="grid">
 					<h1 className="col -block md-push-1 lg-push-2 title">
-						Press.
+						感觉无聊？
 						<br />
-						<span className="salmon">Word on the street.</span>
+						<span className="salmon">来看看这些奇奇怪怪的网站</span>
 					</h1>
 				</div>
 
 				<div className="grid">
 					<div className="col md-7 lg-5 md-push-1 lg-push-2 lg-push-3">
 						<p className="measure">
-							We’ve only been trading since March but the media are already getting
-							excited about Dona Rita. Here are some of the names that wrote an article
-							about us.
+						  Tan90° 传送门：你将被传送到一个超奇怪的网站，传送到其中任一网站的概率都是相等的。
 						</p>
 					</div>
 				</div>
 
-				<div className="grid press-icons">
+{/* 				<div className="grid press-icons">
 					<div className="col sm-6 md-2 md-push-3">
 						<a
 							href="http://www.standard.co.uk/goingout/restaurants/p-o-de-queijo-in-london-brazilian-cheese-bread-comes-to-old-street-a3530296.html"
@@ -97,7 +95,7 @@ function PressPage() {
 							<img src={metroImg} />
 						</a>
 					</div>
-				</div>
+				</div> */}
 			</Section>
 
 			<Banner img={fullWidthImageDarkImg} mobileImg={fullWidthImageDarkImg} />
@@ -106,9 +104,9 @@ function PressPage() {
 				<div className="grid">
 					<blockquote className="col md-9 md-push-1 lg-push-2">
 						<h3 className="h1">
-							Forget cronuts and duffins, there’s a new baked good in town.
+							发现了好多奇奇怪怪的网站，太开心了🤣
 						</h3>
-						<p>Ben Norum — Evening standard</p>
+						<p>The User</p>
 					</blockquote>
 				</div>
 			</div>

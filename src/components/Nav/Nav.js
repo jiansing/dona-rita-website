@@ -30,9 +30,9 @@ export class Nav extends React.Component {
 		const links = [
 			{ name: '首页', to: '/' },
 			{ name: '来充电', to: '/intellect' },
-			{ name: '好奇怪', to: '/useless' },
-			{ name: 'Shops', to: '/shops' },
-			{ name: 'Buy online', to: '/buy' }
+			{ name: '好奇怪', to: '/useless' }
+/* 			{ name: 'Shops', to: '/shops' },
+			{ name: 'Buy online', to: '/buy' } */
 		];
 		return (
 			<div className="grid">
