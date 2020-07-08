@@ -65,12 +65,7 @@ function IndexPage({ data, location }) {
 							<Link to="/story" className="button" id="button">
 							    Let's Go
 							</Link>
-							<script type="text/javascript" src="https://gate.ofo.moe/static/js/web.js"></script>
-							<script>
-                            var uselessWebButton = new uselessWebButton(
-                            document.getElementById("button")
-                              );
-                            </script>
+
 						</p>
 					</div>
 
