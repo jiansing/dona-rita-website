@@ -7,12 +7,6 @@ module.exports = {
 		'gatsby-plugin-react-helmet',
 		'gatsby-plugin-sass',
 		{
-			resolve: 'gatsby-plugin-load-script',
-			options: {
-			  src: '/web.js', // Change to the script filename
-			},
-		  },
-		{
 			resolve: 'gatsby-plugin-nprogress',
 			options: {
 				color: '#f09a7a',
