@@ -50,7 +50,9 @@ function IndexPage({ data, location }) {
 {/* 							<Link to="https://gate.ofo.moe" className="button">
 							    Let's Go
 							</Link> */}
-							<a href="https://gate.ofo.moe" className="button">Let's Go</a>
+							<a href="https://gate.ofo.moe" className="button" target="_blank">
+							Let's Go
+							</a>
 						</p>
 					</div>
 
@@ -88,9 +90,12 @@ function IndexPage({ data, location }) {
 						   挖掘躺在互联网角落里，被我们所忽视的宝藏网站。
 						</p>
 						<p className="measure-wider">
-							<Link to="/stockists" className="button">
+{/* 							<Link to="/stockists" className="button">
 								来逛逛！
-							</Link>
+							</Link> */}
+							<a href="https://community.ofo.moe" className="button" target="_blank">
+							来逛逛！
+							</a>
 						</p>
 					</div>
 
